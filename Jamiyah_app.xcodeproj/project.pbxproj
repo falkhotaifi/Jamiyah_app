@@ -7,21 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282091DA1EDC3D6F0057F111 /* SignOut_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282091D91EDC3D6F0057F111 /* SignOut_TableViewCell.swift */; };
 		286271C51ED804B300E77FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286271C41ED804B300E77FF8 /* AppDelegate.swift */; };
 		286271C71ED804B300E77FF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286271C61ED804B300E77FF8 /* ViewController.swift */; };
-		286271CA1ED804B300E77FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286271C81ED804B300E77FF8 /* Main.storyboard */; };
 		286271CC1ED804B300E77FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286271CB1ED804B300E77FF8 /* Assets.xcassets */; };
 		286271CF1ED804B300E77FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286271CD1ED804B300E77FF8 /* LaunchScreen.storyboard */; };
+		286271DC1ED8087E00E77FF8 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286271DB1ED8087E00E77FF8 /* Start.storyboard */; };
+		286271E41ED8225E00E77FF8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286271E31ED8225E00E77FF8 /* SWRevealViewController.m */; };
+		286271EC1ED8264500E77FF8 /* Brushez.com-39603-SC_AMEEN.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 286271E91ED8264500E77FF8 /* Brushez.com-39603-SC_AMEEN.ttf */; };
+		286271EE1ED8264500E77FF8 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf in Resources */ = {isa = PBXBuildFile; fileRef = 286271EB1ED8264500E77FF8 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf */; };
+		286271F01ED826E300E77FF8 /* Sign_inUp_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286271EF1ED826E300E77FF8 /* Sign_inUp_view.swift */; };
+		286271F21ED8275200E77FF8 /* SignIn_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286271F11ED8275200E77FF8 /* SignIn_ViewController.swift */; };
+		286271F41ED8278700E77FF8 /* SignUp_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286271F31ED8278700E77FF8 /* SignUp_ViewController.swift */; };
+		286271F61ED827C400E77FF8 /* ResetPassword_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286271F51ED827C400E77FF8 /* ResetPassword_ViewController.swift */; };
+		286271FA1ED828DC00E77FF8 /* MainView_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286271F91ED828DC00E77FF8 /* MainView_ViewController.swift */; };
+		286271FC1ED8293100E77FF8 /* AddNewJamiyah_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286271FB1ED8293100E77FF8 /* AddNewJamiyah_ViewController.swift */; };
+		286271FE1ED829AA00E77FF8 /* newUser_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286271FD1ED829AA00E77FF8 /* newUser_TableViewCell.swift */; };
+		286272001ED82A2A00E77FF8 /* jamiyah_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286271FF1ED82A2A00E77FF8 /* jamiyah_TableViewController.swift */; };
+		286272021ED82A4700E77FF8 /* jamiyahCell_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286272011ED82A4700E77FF8 /* jamiyahCell_TableViewCell.swift */; };
+		286272041ED82A9900E77FF8 /* Friends_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286272031ED82A9900E77FF8 /* Friends_ViewController.swift */; };
+		286272061ED82AC200E77FF8 /* FriendsCell_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286272051ED82AC200E77FF8 /* FriendsCell_TableViewCell.swift */; };
+		286272081ED82B7500E77FF8 /* EditUser_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286272071ED82B7400E77FF8 /* EditUser_TableViewCell.swift */; };
+		2862720A1ED82B9400E77FF8 /* EditJamiyah_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286272091ED82B9400E77FF8 /* EditJamiyah_ViewController.swift */; };
+		2862720E1ED82BE400E77FF8 /* EditProfile_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2862720D1ED82BE400E77FF8 /* EditProfile_ViewController.swift */; };
+		286272101ED82C2B00E77FF8 /* AppUsage_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2862720F1ED82C2B00E77FF8 /* AppUsage_ViewController.swift */; };
+		286272121ED82C6000E77FF8 /* RateApp_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286272111ED82C6000E77FF8 /* RateApp_ViewController.swift */; };
+		286272141ED82C8900E77FF8 /* AboutUs_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286272131ED82C8900E77FF8 /* AboutUs_ViewController.swift */; };
+		286272161EDA9B4500E77FF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 286272151EDA9B4500E77FF8 /* GoogleService-Info.plist */; };
+		286272181EDAA21800E77FF8 /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286272171EDAA21800E77FF8 /* AuthServices.swift */; };
+		2862721A1EDABD9100E77FF8 /* Brushez.com-40550-khalaad Hadeel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 286272191EDABD9100E77FF8 /* Brushez.com-40550-khalaad Hadeel.ttf */; };
+		2862721C1EDACA6D00E77FF8 /* SlideMenu_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2862721B1EDACA6D00E77FF8 /* SlideMenu_TableViewCell.swift */; };
+		87B205855742BA82893FCAB0 /* Pods_Jamiyah_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C703706E8B9D9B82EA477D6 /* Pods_Jamiyah_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		282091D91EDC3D6F0057F111 /* SignOut_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOut_TableViewCell.swift; sourceTree = "<group>"; };
 		286271C11ED804B300E77FF8 /* Jamiyah_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jamiyah_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		286271C41ED804B300E77FF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		286271C61ED804B300E77FF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		286271C91ED804B300E77FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		286271CB1ED804B300E77FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		286271CE1ED804B300E77FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		286271D01ED804B300E77FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286271DB1ED8087E00E77FF8 /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		286271E11ED8225D00E77FF8 /* Jamiyah_app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jamiyah_app-Bridging-Header.h"; sourceTree = "<group>"; };
+		286271E21ED8225E00E77FF8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		286271E31ED8225E00E77FF8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		286271E91ED8264500E77FF8 /* Brushez.com-39603-SC_AMEEN.ttf */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Brushez.com-39603-SC_AMEEN.ttf"; sourceTree = "<group>"; };
+		286271EB1ED8264500E77FF8 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "muslimah-light-165e47eb23ec3485030eb50483629860.otf"; sourceTree = "<group>"; };
+		286271EF1ED826E300E77FF8 /* Sign_inUp_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sign_inUp_view.swift; sourceTree = "<group>"; };
+		286271F11ED8275200E77FF8 /* SignIn_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn_ViewController.swift; sourceTree = "<group>"; };
+		286271F31ED8278700E77FF8 /* SignUp_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp_ViewController.swift; sourceTree = "<group>"; };
+		286271F51ED827C400E77FF8 /* ResetPassword_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPassword_ViewController.swift; sourceTree = "<group>"; };
+		286271F91ED828DC00E77FF8 /* MainView_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView_ViewController.swift; sourceTree = "<group>"; };
+		286271FB1ED8293100E77FF8 /* AddNewJamiyah_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewJamiyah_ViewController.swift; sourceTree = "<group>"; };
+		286271FD1ED829AA00E77FF8 /* newUser_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newUser_TableViewCell.swift; sourceTree = "<group>"; };
+		286271FF1ED82A2A00E77FF8 /* jamiyah_TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jamiyah_TableViewController.swift; sourceTree = "<group>"; };
+		286272011ED82A4700E77FF8 /* jamiyahCell_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jamiyahCell_TableViewCell.swift; sourceTree = "<group>"; };
+		286272031ED82A9900E77FF8 /* Friends_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friends_ViewController.swift; sourceTree = "<group>"; };
+		286272051ED82AC200E77FF8 /* FriendsCell_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCell_TableViewCell.swift; sourceTree = "<group>"; };
+		286272071ED82B7400E77FF8 /* EditUser_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditUser_TableViewCell.swift; sourceTree = "<group>"; };
+		286272091ED82B9400E77FF8 /* EditJamiyah_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditJamiyah_ViewController.swift; sourceTree = "<group>"; };
+		2862720D1ED82BE400E77FF8 /* EditProfile_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfile_ViewController.swift; sourceTree = "<group>"; };
+		2862720F1ED82C2B00E77FF8 /* AppUsage_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUsage_ViewController.swift; sourceTree = "<group>"; };
+		286272111ED82C6000E77FF8 /* RateApp_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateApp_ViewController.swift; sourceTree = "<group>"; };
+		286272131ED82C8900E77FF8 /* AboutUs_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUs_ViewController.swift; sourceTree = "<group>"; };
+		286272151EDA9B4500E77FF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		286272171EDAA21800E77FF8 /* AuthServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
+		286272191EDABD9100E77FF8 /* Brushez.com-40550-khalaad Hadeel.ttf */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Brushez.com-40550-khalaad Hadeel.ttf"; sourceTree = "<group>"; };
+		2862721B1EDACA6D00E77FF8 /* SlideMenu_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenu_TableViewCell.swift; sourceTree = "<group>"; };
+		360FB3F82D0F933A10CB1061 /* Pods-Jamiyah_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jamiyah_app.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jamiyah_app/Pods-Jamiyah_app.release.xcconfig"; sourceTree = "<group>"; };
+		7C703706E8B9D9B82EA477D6 /* Pods_Jamiyah_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jamiyah_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD15EAFB1E86EDD74EF47A93 /* Pods-Jamiyah_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jamiyah_app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jamiyah_app/Pods-Jamiyah_app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B205855742BA82893FCAB0 /* Pods_Jamiyah_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +97,8 @@
 			children = (
 				286271C31ED804B300E77FF8 /* Jamiyah_app */,
 				286271C21ED804B300E77FF8 /* Products */,
+				F660EA2A79B0919A8670C5FF /* Pods */,
+				5DE9E365640427418C4BB0CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +114,105 @@
 			isa = PBXGroup;
 			children = (
 				286271C41ED804B300E77FF8 /* AppDelegate.swift */,
-				286271C61ED804B300E77FF8 /* ViewController.swift */,
-				286271C81ED804B300E77FF8 /* Main.storyboard */,
+				286272171EDAA21800E77FF8 /* AuthServices.swift */,
+				286271E21ED8225E00E77FF8 /* SWRevealViewController.h */,
+				286271E31ED8225E00E77FF8 /* SWRevealViewController.m */,
+				286271D81ED8069A00E77FF8 /* ViewController */,
+				286271D61ED8067200E77FF8 /* Stroy_board */,
+				286271D71ED8068C00E77FF8 /* supplement */,
+				286271E11ED8225D00E77FF8 /* Jamiyah_app-Bridging-Header.h */,
+			);
+			path = Jamiyah_app;
+			sourceTree = "<group>";
+		};
+		286271D61ED8067200E77FF8 /* Stroy_board */ = {
+			isa = PBXGroup;
+			children = (
+				286271DB1ED8087E00E77FF8 /* Start.storyboard */,
+			);
+			name = Stroy_board;
+			sourceTree = "<group>";
+		};
+		286271D71ED8068C00E77FF8 /* supplement */ = {
+			isa = PBXGroup;
+			children = (
+				286272151EDA9B4500E77FF8 /* GoogleService-Info.plist */,
+				286272191EDABD9100E77FF8 /* Brushez.com-40550-khalaad Hadeel.ttf */,
+				286271E91ED8264500E77FF8 /* Brushez.com-39603-SC_AMEEN.ttf */,
+				286271EB1ED8264500E77FF8 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf */,
 				286271CB1ED804B300E77FF8 /* Assets.xcassets */,
 				286271CD1ED804B300E77FF8 /* LaunchScreen.storyboard */,
 				286271D01ED804B300E77FF8 /* Info.plist */,
 			);
-			path = Jamiyah_app;
+			name = supplement;
+			sourceTree = "<group>";
+		};
+		286271D81ED8069A00E77FF8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				286271C61ED804B300E77FF8 /* ViewController.swift */,
+				286271F71ED827E900E77FF8 /* Sign_inUp */,
+				286271F81ED8288A00E77FF8 /* mainView */,
+				2862720C1ED82BB900E77FF8 /* slideMenu */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		286271F71ED827E900E77FF8 /* Sign_inUp */ = {
+			isa = PBXGroup;
+			children = (
+				286271EF1ED826E300E77FF8 /* Sign_inUp_view.swift */,
+				286271F11ED8275200E77FF8 /* SignIn_ViewController.swift */,
+				286271F31ED8278700E77FF8 /* SignUp_ViewController.swift */,
+				286271F51ED827C400E77FF8 /* ResetPassword_ViewController.swift */,
+			);
+			name = Sign_inUp;
+			sourceTree = "<group>";
+		};
+		286271F81ED8288A00E77FF8 /* mainView */ = {
+			isa = PBXGroup;
+			children = (
+				286271F91ED828DC00E77FF8 /* MainView_ViewController.swift */,
+				286271FF1ED82A2A00E77FF8 /* jamiyah_TableViewController.swift */,
+				286272011ED82A4700E77FF8 /* jamiyahCell_TableViewCell.swift */,
+				286272031ED82A9900E77FF8 /* Friends_ViewController.swift */,
+				286272051ED82AC200E77FF8 /* FriendsCell_TableViewCell.swift */,
+				286271FB1ED8293100E77FF8 /* AddNewJamiyah_ViewController.swift */,
+				286271FD1ED829AA00E77FF8 /* newUser_TableViewCell.swift */,
+				286272091ED82B9400E77FF8 /* EditJamiyah_ViewController.swift */,
+				286272071ED82B7400E77FF8 /* EditUser_TableViewCell.swift */,
+			);
+			name = mainView;
+			sourceTree = "<group>";
+		};
+		2862720C1ED82BB900E77FF8 /* slideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2862721B1EDACA6D00E77FF8 /* SlideMenu_TableViewCell.swift */,
+				2862720D1ED82BE400E77FF8 /* EditProfile_ViewController.swift */,
+				2862720F1ED82C2B00E77FF8 /* AppUsage_ViewController.swift */,
+				286272111ED82C6000E77FF8 /* RateApp_ViewController.swift */,
+				286272131ED82C8900E77FF8 /* AboutUs_ViewController.swift */,
+				282091D91EDC3D6F0057F111 /* SignOut_TableViewCell.swift */,
+			);
+			name = slideMenu;
+			sourceTree = "<group>";
+		};
+		5DE9E365640427418C4BB0CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C703706E8B9D9B82EA477D6 /* Pods_Jamiyah_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F660EA2A79B0919A8670C5FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD15EAFB1E86EDD74EF47A93 /* Pods-Jamiyah_app.debug.xcconfig */,
+				360FB3F82D0F933A10CB1061 /* Pods-Jamiyah_app.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 286271D31ED804B300E77FF8 /* Build configuration list for PBXNativeTarget "Jamiyah_app" */;
 			buildPhases = (
+				EC0238E2D78D4E05780B6EF6 /* [CP] Check Pods Manifest.lock */,
 				286271BD1ED804B300E77FF8 /* Sources */,
 				286271BE1ED804B300E77FF8 /* Frameworks */,
 				286271BF1ED804B300E77FF8 /* Resources */,
+				5A71808B744EA63E056B559C /* [CP] Embed Pods Frameworks */,
+				10DC0949CA37A4568C130005 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +251,7 @@
 					286271C01ED804B300E77FF8 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = H5Q8F86PF5;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,13 +279,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2862721A1EDABD9100E77FF8 /* Brushez.com-40550-khalaad Hadeel.ttf in Resources */,
+				286271EC1ED8264500E77FF8 /* Brushez.com-39603-SC_AMEEN.ttf in Resources */,
 				286271CF1ED804B300E77FF8 /* LaunchScreen.storyboard in Resources */,
 				286271CC1ED804B300E77FF8 /* Assets.xcassets in Resources */,
-				286271CA1ED804B300E77FF8 /* Main.storyboard in Resources */,
+				286271DC1ED8087E00E77FF8 /* Start.storyboard in Resources */,
+				286271EE1ED8264500E77FF8 /* muslimah-light-165e47eb23ec3485030eb50483629860.otf in Resources */,
+				286272161EDA9B4500E77FF8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10DC0949CA37A4568C130005 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jamiyah_app/Pods-Jamiyah_app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A71808B744EA63E056B559C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jamiyah_app/Pods-Jamiyah_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC0238E2D78D4E05780B6EF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		286271BD1ED804B300E77FF8 /* Sources */ = {
@@ -138,21 +345,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				286271C71ED804B300E77FF8 /* ViewController.swift in Sources */,
+				286271FE1ED829AA00E77FF8 /* newUser_TableViewCell.swift in Sources */,
+				286272081ED82B7500E77FF8 /* EditUser_TableViewCell.swift in Sources */,
+				286271F61ED827C400E77FF8 /* ResetPassword_ViewController.swift in Sources */,
+				2862720A1ED82B9400E77FF8 /* EditJamiyah_ViewController.swift in Sources */,
+				286272021ED82A4700E77FF8 /* jamiyahCell_TableViewCell.swift in Sources */,
+				286271F01ED826E300E77FF8 /* Sign_inUp_view.swift in Sources */,
+				286272121ED82C6000E77FF8 /* RateApp_ViewController.swift in Sources */,
+				2862721C1EDACA6D00E77FF8 /* SlideMenu_TableViewCell.swift in Sources */,
+				286271F21ED8275200E77FF8 /* SignIn_ViewController.swift in Sources */,
+				286272101ED82C2B00E77FF8 /* AppUsage_ViewController.swift in Sources */,
+				2862720E1ED82BE400E77FF8 /* EditProfile_ViewController.swift in Sources */,
+				282091DA1EDC3D6F0057F111 /* SignOut_TableViewCell.swift in Sources */,
+				286272181EDAA21800E77FF8 /* AuthServices.swift in Sources */,
+				286272041ED82A9900E77FF8 /* Friends_ViewController.swift in Sources */,
+				286272001ED82A2A00E77FF8 /* jamiyah_TableViewController.swift in Sources */,
 				286271C51ED804B300E77FF8 /* AppDelegate.swift in Sources */,
+				286271FC1ED8293100E77FF8 /* AddNewJamiyah_ViewController.swift in Sources */,
+				286271F41ED8278700E77FF8 /* SignUp_ViewController.swift in Sources */,
+				286272141ED82C8900E77FF8 /* AboutUs_ViewController.swift in Sources */,
+				286272061ED82AC200E77FF8 /* FriendsCell_TableViewCell.swift in Sources */,
+				286271FA1ED828DC00E77FF8 /* MainView_ViewController.swift in Sources */,
+				286271E41ED8225E00E77FF8 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		286271C81ED804B300E77FF8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				286271C91ED804B300E77FF8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		286271CD1ED804B300E77FF8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,26 +479,33 @@
 		};
 		286271D41ED804B300E77FF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD15EAFB1E86EDD74EF47A93 /* Pods-Jamiyah_app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = H5Q8F86PF5;
 				INFOPLIST_FILE = Jamiyah_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.F3Deve.Jamiyah-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jamiyah_app/Jamiyah_app-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		286271D51ED804B300E77FF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360FB3F82D0F933A10CB1061 /* Pods-Jamiyah_app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = H5Q8F86PF5;
 				INFOPLIST_FILE = Jamiyah_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.F3Deve.Jamiyah-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Jamiyah_app/Jamiyah_app-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +529,7 @@
 				286271D51ED804B300E77FF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
